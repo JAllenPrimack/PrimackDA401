@@ -155,7 +155,7 @@ y = hitters['Guarantee']
 
 # Dropping non-relevant features
 
-features_drop = ['Year', 'Years', 'Term', 'Player', 'Position', 'New Club', 'Player Agent', 'Club Owner', 'Old Club', 'Baseball Ops head / club GM', 'Unnamed: 13']
+features_drop = ['Year', 'Years', 'Term', 'Player', 'Position', 'New Club', 'Player Agent', 'Club Owner', 'Old Club', 'Baseball Ops head / club GM', 'Unnamed: 13','Future WAR']
 
 X.drop(columns=features_drop, inplace=True)
 
